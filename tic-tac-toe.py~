@@ -125,7 +125,7 @@ def main():
                 break
             else:
                 turn = 2
-        else: # Player 2's turn
+        elif turn == 2: # Player 2's turn
             print 'Player 2: \n'
             play(game, player2_marker)
             if win_check(game, player2_marker):
